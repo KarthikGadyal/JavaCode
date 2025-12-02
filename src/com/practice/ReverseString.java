@@ -24,5 +24,4 @@ public class ReverseString {
 		System.out.println(rev);
 
 	}
-
 }
