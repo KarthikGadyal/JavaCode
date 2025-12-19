@@ -12,10 +12,8 @@ public class CountFreq {
 		Map<Integer, Integer> hm = new HashMap<>();
 		
 		for(int num: arr) {
-			hm.put(num, hm.getOrDefault(num, 0) + 1);	//remeber for count frequency
+			hm.put(num, hm.getOrDefault(num, 0) + 1);	//remember for count frequency
 		}
 		System.out.println(hm);
-
 	}
-
 }
